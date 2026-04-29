@@ -227,10 +227,13 @@ st.plotly_chart(fig_tren, use_container_width=True)
 
 st.markdown("""
 <div class="insight-box">
-💡 <b>Terdapat hal yang menarik dari grafik ini:</b> Untuk PM2.5 maupun PM10 tidak menunjukkan tren penurunan yang konsisten.
-Keduanya sempat membaik di 2016 — PM2.5 turun ke titik terendahnya di <b>61,5 µg/m³</b> — tapi langsung
-berbalik naik lagi di 2017. Yang lebih mengkhawatirkan, <b>seluruh nilai rata-rata tahunan masih jauh
-melampaui batas WHO</b>. Nilai terbaik pun (2016) masih <b>4× lipat</b> di atas batas PM2.5 yang aman.
+💡Insight :  Konsentrasi PM2.5 dan PM10 di Changping tidak menunjukkan tren penurunan yang konsisten selama periode 2013–2017. 
+PM2.5 meningkat dari 72.52 µg/m³ pada tahun 2013 menjadi 78.34 µg/m³ pada tahun 2014, kemudian menurun hingga mencapai titik terendah sebesar 61.45 µg/m³ pada tahun 2016, sebelum kembali meningkat pada awal 2017. 
+Pola serupa juga terlihat pada PM10.
+
+Yang lebih mengkhawatirkan, seluruh nilai rata-rata tahunan masih jauh melampaui ambang batas WHO. Bahkan pada kondisi terbaiknya (2016), konsentrasi PM2.5 masih lebih dari empat kali lipat batas yang direkomendasikan. 
+Hal ini menunjukkan bahwa polusi udara di Changping masih merupakan masalah struktural yang belum terselesaikan.
+""")
 </div>
 """, unsafe_allow_html=True)
 
