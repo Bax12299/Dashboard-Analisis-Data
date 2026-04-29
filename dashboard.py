@@ -129,7 +129,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### Tentang Dashboard")
     st.markdown(
-        "Dashboard ini menampilkan analisis kualitas udara di **Stasiun Changping**, Beijing, "
+        "Dashboard ini menampilkan analisis kualitas udara di **Changping**, Beijing, "
         "berdasarkan data pengukuran per jam selama periode **Maret 2013 – Februari 2017**."
     )
     st.markdown("---")
@@ -147,9 +147,7 @@ dff = df[df['year'].isin(sel_years)]
 # ══════════════════════════════════════════════════════════════════════════════
 st.markdown("# 💨 Dashboard Kualitas Udara — Changping, Beijing")
 st.markdown(
-    "Selamat datang! Dashboard ini merangkum kondisi kualitas udara di stasiun Changping "
-    "selama empat tahun terakhir yang tersedia dalam dataset. Gunakan filter di sebelah kiri "
-    "untuk menjelajahi data berdasarkan tahun yang kamu inginkan."
+    "Analisis kualitas udara di **Changping, Beijing**.
 )
 st.markdown("---")
 
