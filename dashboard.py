@@ -281,10 +281,10 @@ for tab, col, color in [(tab1, 'PM2.5', '#e74c3c'), (tab2, 'PM10', '#3498db')]:
 
 st.markdown("""
 <div class="insight-box">
-💡 <b>Polusi udara punya musim tersendiri.</b> Konsentrasi PM2.5 dan PM10 secara konsisten melonjak
-di bulan-bulan dingin (November–Februari) dan relatif membaik di musim panas (Juni–Agustus).
-Ini mungkin terjadi <b>pembakaran batu bara seperti briket untuk pemanas ruangan</b> di musim dingin,
-ditambah kondisi atmosfer yang lebih stabil sehingga polutan sulit tersebar.
+"💡 <b>Polusi udara punya musim tersendiri.</b> Konsentrasi PM2.5 dan PM10 secara konsisten melonjak"
+"di bulan-bulan dingin (November–Februari) dan relatif membaik di musim panas (Juni–Agustus)."
+"Ini mungkin terjadi <b>pembakaran batu bara seperti briket untuk pemanas ruangan</b> di musim dingin,"
+"ditambah kondisi atmosfer yang lebih stabil sehingga polutan sulit tersebar."
 </div>
 """, unsafe_allow_html=True)
 
