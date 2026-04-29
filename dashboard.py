@@ -157,7 +157,7 @@ st.markdown("---")
 # ══════════════════════════════════════════════════════════════════════════════
 # SECTION 1: KARTU RINGKASAN
 # ══════════════════════════════════════════════════════════════════════════════
-st.markdown('<div class="section-header"><h3>📌 Sekilas Angka</h3></div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header"><h3>📌 Sekilas Info</h3></div>', unsafe_allow_html=True)
 
 total_jam      = len(dff)
 rata_pm25      = dff['PM2.5'].mean()
@@ -229,7 +229,7 @@ st.plotly_chart(fig_tren, use_container_width=True)
 
 st.markdown("""
 <div class="insight-box">
-💡 <b>Yang menarik dari grafik ini:</b> Baik PM2.5 maupun PM10 tidak menunjukkan tren penurunan yang konsisten.
+💡 <b>Terdapat hal yang menarik dari grafik ini:</b> Untuk PM2.5 maupun PM10 tidak menunjukkan tren penurunan yang konsisten.
 Keduanya sempat membaik di 2016 — PM2.5 turun ke titik terendahnya di <b>61,5 µg/m³</b> — tapi langsung
 berbalik naik lagi di 2017. Yang lebih mengkhawatirkan, <b>seluruh nilai rata-rata tahunan masih jauh
 melampaui batas WHO</b>. Nilai terbaik pun (2016) masih <b>4× lipat</b> di atas batas PM2.5 yang aman.
@@ -282,7 +282,7 @@ st.markdown("""
 <div class="insight-box">
 💡 <b>Polusi udara punya musim tersendiri.</b> Konsentrasi PM2.5 dan PM10 secara konsisten melonjak
 di bulan-bulan dingin (November–Februari) dan relatif membaik di musim panas (Juni–Agustus).
-Ini kemungkinan besar didorong oleh <b>pembakaran batu bara untuk pemanas ruangan</b> di musim dingin,
+Ini mungkin terjadi <b>pembakaran batu bara seperti briket untuk pemanas ruangan</b> di musim dingin,
 ditambah kondisi atmosfer yang lebih stabil sehingga polutan sulit tersebar.
 </div>
 """, unsafe_allow_html=True)
@@ -365,7 +365,7 @@ st.markdown("""
 💡 <b>Arah angin sangat menentukan seberapa buruk udara yang kita hirup.</b>
 Angin dari <b>ESE (timur-tenggara)</b> secara konsisten membawa PM2.5 tertinggi (<b>98,2 µg/m³</b>),
 sementara angin dari <b>WNW (barat-barat laut)</b> membawa udara paling bersih (<b>42,8 µg/m³</b>).
-Selisih antara keduanya lebih dari <b>2× lipat</b> — mengindikasikan adanya sumber polusi yang terkonsentrasi
+Selisih antara keduanya lebih dari <b>2× lipat</b> mengindikasikan adanya sumber polusi yang terkonsentrasi
 di sisi timur-tenggara Changping, kemungkinan kawasan industri atau jalan arteri padat.
 </div>
 """, unsafe_allow_html=True)
@@ -378,7 +378,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 # ══════════════════════════════════════════════════════════════════════════════
 st.markdown('<div class="section-header"><h3>🏷️ Seberapa Sering Udara di Changping Benar-benar Berbahaya?</h3></div>', unsafe_allow_html=True)
 st.markdown(
-    "Kita bagi setiap jam pengamatan ke dalam 6 kategori kualitas udara menggunakan bins AQI yang seragam "
+    "Kita bagi setiap jam pengamatan ke dalam 6 kategori kualitas udara menggunakan bins AQI"
     "untuk PM2.5 dan PM10, sehingga keduanya bisa dibandingkan secara langsung."
 )
 
@@ -445,7 +445,7 @@ st.markdown("""
 <div class="insight-box">
 💡 <b>Perbandingan PM2.5 vs PM10 dengan skala yang sama mengungkap fakta menarik:</b><br>
 • <b>PM2.5</b> — 54,2% jam masuk kategori <i>Good</i>, tapi 12,3% jam sudah di level berbahaya (<i>Unhealthy</i> ke atas). Tahun 2017 jadi yang terparah dengan <i>Very Unhealthy</i> melonjak ke <b>9,1%</b>.<br>
-• <b>PM10</b> — kondisinya lebih mengkhawatirkan. Hanya <b>37,5%</b> jam yang masuk <i>Good</i>, dan <b>18,8%</b> jam sudah berbahaya — hampir 1,5× lebih buruk dari PM2.5.<br>
+• <b>PM10</b> — kondisinya lebih mengkhawatirkan. Hanya <b>37,5%</b> jam yang masuk <i>Good</i>, dan <b>18,8%</b> jam sudah berbahaya hampir 1,5× lebih buruk dari PM2.5.<br>
 Artinya, Changping menghadapi <b>tekanan ganda dari kedua jenis partikulat</b> sekaligus. Pemantauan dan pengendalian keduanya perlu dilakukan bersama, bukan salah satu saja.
 </div>
 """, unsafe_allow_html=True)
@@ -503,7 +503,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 st.markdown("---")
 st.markdown("""
 <div style="text-align:center; color:#4a5568; font-size:0.82rem; padding: 0.5rem 0 1.5rem;">
-    Dashboard dibuat sebagai bagian dari Proyek Analisis Data · Data: PRSA Air Quality Dataset, Changping Station ·
-    Standar AQI: U.S. EPA · Batas aman: WHO Air Quality Guidelines 2021
+   Dashboard kualitas udara di Changping Station ·
+    Haba L Herlambang Banjarnahor
 </div>
 """, unsafe_allow_html=True)
