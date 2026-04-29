@@ -147,7 +147,7 @@ dff = df[df['year'].isin(sel_years)]
 # ══════════════════════════════════════════════════════════════════════════════
 st.markdown("# 💨 Dashboard Kualitas Udara — Changping, Beijing")
 st.markdown(
-    "Analisis kualitas udara di **Changping, Beijing**.
+    "Analisis kualitas udara di **Changping, Beijing**"
 )
 st.markdown("---")
 
